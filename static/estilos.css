@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;  /* fuente  */
+    background-color: #f4f4f4;       /* color de fondo gris claro */
+    margin: 0;                       /* quita el margen predeterminado */
+    padding: 0;                      /* quita el relleno predeterminado  */
+    display: flex;                   /* centrar el contenido */
+    justify-content: center;         /* centra el contenido horizontalmente */
+    align-items: center;             /* centra el contenido verticalmente */
+    height: 100vh;                   /* altura completa de la ventana */
+}
+
+/* Estilo para encabezados */
+h1 {
+    color: #333;                     /* Color del texto gris oscuro */
+    text-align: center;              /* Centra el texto */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 100%;                     /* ocupa el ancho disponible */
+    max-width: 350px;                /* ancho máximo del contenedor  */
+    margin: 20px;                    /* espacio alrededor del contenedor */
+    background: #fff;                /* fondo blanco */
+    padding: 10px;                   /* espacio interno alrededor del contenido */
+    border-radius: 5px;              /* bordes suavemente redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* sombra ligera para efecto de profundidad */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #007bff;       /* color azul para el fondo del botón */
+    color: white;                    /* texto blanco para contraste */
+    padding: 10px 15px;              /* espaciado interno del botón */
+    border: none;                    /* sin borde para un diseño limpio */
+    border-radius: 5px;              /* bordes redondeados */
+    cursor: pointer;                 /* cambia el cursor a un puntero al pasar sobre el botón */
+    font-size: 16px;                 /* tamaño de fuente del botón */
+    width: 100%;                     /* ancho todo el ancho del contenedor */
+    margin-top: 10px;                /* espacio en la parte superior para separación */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background-color: #009bff;       /* cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilo para formularios */
+form {
+    display: flex;                   /* organizar el formulario en una columna */
+    flex-direction: column;          /* coloca los elementos del formulario en una columna */
+}
+
+/* Estilo para los campos de entrada de texto y número */
+input[type="number"],
+input[type="text"] {
+    padding: 10px;                   /* espaciado interno para facilidad de escritura */
+    margin: 10px 0;                  /* espacio entre los campos */
+    border: 1px solid #ddd;          /* borde gris claro */
+    border-radius: 5px;              /* bordes redondeados para consistencia */
+    font-size: 10px;                 /* tamaño de fuente del campo */
+    width: 90%;                     /*  ccupa todo el ancho del contenedor */
+}
+
+/* Estilo para enlaces */
+a {
+    display: block;                  /* ocupa toda la línea para centrado fácil */
+    text-align: center;              /* centra el texto del enlace */
+    margin-top: 20px;                /* espacio en la parte superior para separación */
+    color: #4CAF50;                  /* color verde para el enlace */
+    text-decoration: none;           /* quita el subrayado predeterminado */
+}
+
+/* Efecto hover para enlaces */
+a:hover {
+    color: #45a049;                  /* cambia el color del enlace al pasar el cursor */
+}
+
+h1 {
+ text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+}
